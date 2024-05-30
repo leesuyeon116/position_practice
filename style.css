@@ -1,0 +1,22 @@
+/* 1st */
+.main1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #FF9B9B;
+  color: black;
+}
+
+.sub-main1 {
+  display: flex;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+/* 2nd */
