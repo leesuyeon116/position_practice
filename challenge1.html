@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>challenge1</title>
+    <style>
+        .main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #FF9B9B;
+            color: black;
+        }
+
+        .sub-main {
+            display: flex;
+        }
+
+        .mr-5 {
+            margin-right: 5px;  
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="main">
+        <div class="box">
+            div1
+        </div>
+        <div class="sub-main">
+            <div class="box mr-5">
+                div2
+            </div>
+            <div class="box">
+                div3
+            </div>
+        </div>
+    </div>
 </body>
 </html>
